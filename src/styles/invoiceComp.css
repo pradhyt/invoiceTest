@@ -1,0 +1,159 @@
+
+body {
+    background-color: #0000004D;
+}
+
+/* card starts */
+.invoice__card {
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+    width: 80%;
+    margin: 80px auto;
+    background-color: #FFFFFF;
+    background-image: url("./../assets/image001.png");
+    /* height: 300px; */
+}
+
+/* card ends */
+
+/* header starts */
+.invoice__header {
+    border-bottom: 2px solid #B5B5B5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.invoice__header--company {
+    color: #2748A1;
+    font-size: 18px;
+    margin-left: 4%;
+    /* font-family: Monts; */
+}
+
+.invoice__header--invoice {
+    color: #434343;
+    font-size: 19px;
+    margin-left: 42%;
+}
+
+.invoice__header--close {
+    color: #707070 !important;
+    margin-right: 3%;
+    border: none;
+    background-color: #FFFFFF;
+
+}
+
+/* header ends */
+
+/*invoice content header starts*/
+.invoice__contentHeader {
+    /* border: 1px solid cyan; */
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    color: #313131;
+}
+
+/*invoice content header ends*/
+
+/* invoice input data starts */
+.invoice__contentRow {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.invoice__contentRow p {
+    margin-left: 6%;
+    color: #313131;
+    font-size: 18px;
+}
+
+.invoice__contentField {
+    /* border:1px double cyan; */
+    width: 140%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -15%;
+    margin-top: 10px;
+}
+
+.invoice__AddBtn {
+    margin-right: 8%;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+/* invoice input data ends */
+
+/* invoice reason textarea starts */
+.invoice__reason {
+    border-bottom: 2px dashed #B5B5B5;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 110px;
+}
+
+.invoice__reason p {
+    margin-left: 6%;
+    color: #313131;
+    font-size: 18px;
+}
+
+.invoice__reason textarea {
+    margin-right: 11%;
+    width: 72.5%;
+    height: 80px;
+    border: 1px solid #DBE5FF;
+    border-radius: 8px
+}
+
+/* invoice reason textarea ends */
+
+/* total value starts  */
+.invoice__totalValue {
+    border-bottom: 2px solid #B5B5B5;
+    display: flex;
+    height: 60px;
+    /* justify-content: space-between; */
+}
+
+.invoice__totalValue p {
+    margin-left: 6%;
+    color: #313131;
+    font-size: 18px;
+}
+
+/* total value ends */
+
+/* submit btn starts */
+.invoice__submit {
+    margin: 15px 0 15px 0;
+    /* border: 1px solid blue; */
+}
+
+.invoice__resetBtn {
+    padding: 10px 15px;
+    letter-spacing: 0.5px;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: #D5D5D5;
+    color: #868686;
+    margin-left: 80%;
+}
+
+.invoice__submitBtn {
+    padding: 10px 18px;
+    letter-spacing: 0.5px;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: #2748A1;
+    color: white;
+    margin-left: 1%;
+}
+
+/* submit btn ends */
